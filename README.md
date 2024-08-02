@@ -95,8 +95,8 @@ root html;
 + At this time, other hosts can also access the system, address: http://serverIP:81
 
 
-## 分析优化
-### 对数据包的分析结果的准确率可通过修改配置文件来提高，修正
-+ 替换./app/utils/GeoIP/GeoLite2-City.mmdb的IP地址经纬度数据库文件能提高IP经纬度地图的准确率
-+ 修改./app/utils/protocol/目录中的各个TCP/IP协议栈的表示号和对应的协议名称可修正协议分析结果
-+ 修改./app/utils/waring/HTTP_ATTACK文件可提高数据包中HTTP协议攻击的准确率
+## Analysis Optimization
+### The accuracy of the data packet analysis results can be improved by modifying the configuration file, and the correction
++ Replacing the IP address latitude and longitude database file of ./app/utils/GeoIP/GeoLite2-City.mmdb can improve the accuracy of the IP latitude and longitude map
++ Modifying the representation number and corresponding protocol name of each TCP/IP protocol stack in the ./app/utils/protocol/ directory can correct the protocol analysis results
++ Modifying the ./app/utils/waring/HTTP_ATTACK file can improve the accuracy of HTTP protocol attacks in data packets
